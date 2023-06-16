@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Select from "react-select"
 import makeAnimated from "react-select/animated";
 
@@ -14,7 +14,7 @@ const getAllIngredientsOptions = ( dishesData ) => {
     }
     // Create correct format for ingredients in react-select:
     var ingredientsOptions = []
-    for (var key in ingredients) {
+    for (key in ingredients) {
         ingredientsOptions.push({
             value: ingredients[key],
             label: ingredients[key]
