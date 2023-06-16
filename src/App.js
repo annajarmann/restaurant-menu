@@ -14,4 +14,4 @@ export default function App() {
       <Dishes selectedIngredients={selectedIngredients} data={dishesData}/>
     </div>
   );
-}  
+}
