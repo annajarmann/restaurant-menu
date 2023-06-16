@@ -11,6 +11,10 @@ Access the directory:
 
     cd restaurant-menu
 
+Install required packages using npm:
+
+    npm install
+
 Run the app using npm:
 
     npm start
